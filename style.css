@@ -79,8 +79,8 @@ html,body{
     align-items: center;
     justify-content: center;
     background: transparent;
-    height: 150px;
-    width: 160px;
+    height: 250px;
+    width: 260px;
 
     
 }
@@ -112,5 +112,6 @@ button{
     right: 10px;
 
 }
+
 
 
