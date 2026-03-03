@@ -73,7 +73,7 @@ html,body{
 }
 .btn{
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
 
     display: flex;
     align-items: center;
@@ -86,8 +86,8 @@ html,body{
 }
 button{
     position: absolute;
-    transform:scale(1.5);
-    padding: 10px 10px;
+    transform:scale(3);
+    padding: 20px 20px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(32px);
     box-shadow: 0 0 5px rgb(50, 250, 11);
@@ -112,3 +112,4 @@ button{
     right: 10px;
 
 }
+
