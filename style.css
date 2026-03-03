@@ -77,21 +77,21 @@ html,body{
 }
 .btn{
     position: absolute;
-    bottom: 5px;
+    bottom: 50px;
 
     display: flex;
     align-items: center;
     justify-content: center;
     background: transparent;
-    height: 130px;
-    width: 120px;
+    height: 200px;
+    width: 130px;
 
     
 }
 button{
     position: absolute;
     transform:scale(1);
-    padding: 30px 20px;
+    padding: 30px 30px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(32px);
     box-shadow: 0 0 5px rgb(50, 250, 11);
