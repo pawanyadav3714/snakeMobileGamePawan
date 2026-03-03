@@ -4,14 +4,14 @@ const foodSound = new Audio('food.mp3');
 const gameOverSound = new Audio('gameover.mp3');
 const moveSound = new Audio('movebtn.mp3');
 const musicSound = new Audio('bg2.mp3');
-let speed = 30;
+let speed = 25;
 let score = 0;
 let lastPaintTime = 0;
 
 let snakeArr = [
-    {x:20, y:16}
+    {x:8, y:22}
 ]
-food = {x:12, y:12};
+food = {x:13, y:12};
 
     //game functions
 function main(ctime){
@@ -33,7 +33,7 @@ function isCollide(snake){
         }
         }
         // If you bump into the wall
-        if(snake[0].x >= 30 || snake[0].x < 0 || snake[0].y >= 30 || snake[0].y < 0){
+        if(snake[0].x >= 20 || snake[0].x < 0 || snake[0].y >= 30 || snake[0].y < 0){
             gameOverSound.play();
         return true;
         }
@@ -65,8 +65,8 @@ function gameEngine(){
             hiscoreBox.innerHTML = "HiScore: " + hiscoreval;
         }
         scoreBox.innerHTML = "Score: " + score;
-        let a = 3;
-        let b = 27;
+        let a = 1;
+        let b = 29;
         food = {x: Math.round(a + (b-a)*Math.random()),
                 y: Math.round(a + (b-a)*Math.random())}
     }
@@ -110,6 +110,7 @@ window.addEventListener('keydown', e =>{
     moveSound.play();
     musicSound.play();
     musicSound.volume = 0.3;
+    musicSound.loop;
     switch(e.key){
         case "ArrowUp":
             //console.log("ArrowUp");
