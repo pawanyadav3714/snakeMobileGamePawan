@@ -86,7 +86,7 @@ html,body{
 }
 button{
     position: absolute;
-    transform:scale(1.5);
+    transform:scale(2.5);
     padding: 10px 10px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(32px);
@@ -112,3 +112,4 @@ button{
     right: 10px;
 
 }
+
