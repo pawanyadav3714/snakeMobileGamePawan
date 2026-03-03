@@ -20,8 +20,8 @@ html,body{
 
 #board{
     position: absolute;
-    top: 30px;
-    height: 90vmin;
+    top: -30px;
+    height: 95vmin;
     width: 95vmin;
     background-color:rgb(40, 50, 40);
     /* background: linear-gradient(-45deg,#00ff88,#00c6ff,#ff4e50,#f9d423); */
@@ -114,6 +114,7 @@ button{
     right: 10px;
 
 }
+
 
 
 
