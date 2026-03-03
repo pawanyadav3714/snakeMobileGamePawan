@@ -19,6 +19,8 @@ html,body{
 }
 
 #board{
+    position: absolute;
+    top: 30px;
     height: 90vmin;
     width: 95vmin;
     background-color:rgb(40, 50, 40);
@@ -112,6 +114,7 @@ button{
     right: 10px;
 
 }
+
 
 
 
