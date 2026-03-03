@@ -20,7 +20,7 @@ html,body{
 
 #board{
     position: absolute;
-    top: -30px;
+   /* top: -30px;*/
     height: 95vmin;
     width: 95vmin;
     background-color:rgb(40, 50, 40);
@@ -81,8 +81,8 @@ html,body{
     align-items: center;
     justify-content: center;
     background: transparent;
-    height: 160px;
-    width: 140px;
+    height: 260px;
+    width: 240px;
 
     
 }
@@ -114,6 +114,7 @@ button{
     right: 10px;
 
 }
+
 
 
 
