@@ -87,11 +87,11 @@ html,body{
 button{
     position: absolute;
     transform:scale(3);
-    padding: 20px 20px;
+    padding: 10px 10px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(32px);
     box-shadow: 0 0 5px rgb(50, 250, 11);
-    border-radius: 40%;
+    border-radius: 40%
     background: rgba(130, 8, 8, 0.119);
 }
 
@@ -112,4 +112,5 @@ button{
     right: 10px;
 
 }
+
 
