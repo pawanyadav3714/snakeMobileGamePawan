@@ -86,7 +86,7 @@ html,body{
 }
 button{
     position: absolute;
-    transform:scale(3);
+    transform:scale(2);
     padding: 10px 10px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(32px);
@@ -96,12 +96,12 @@ button{
 }
 
 #up{
-    top: 10px;
+    top: 1px;
 
 }
 
 #left{
-   left: 10px;
+   left: 12px;
 
 }
 #down{
@@ -109,8 +109,9 @@ button{
 
 }
 #right{
-    right: 10px;
+    right: 12px;
 
 }
+
 
 
