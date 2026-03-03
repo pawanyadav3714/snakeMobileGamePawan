@@ -22,7 +22,7 @@ html,body{
 
 #board{
     position: relative;
-    top: -50px;
+    top: -80px;
     height: 120vmin;
     width: 95vmin;
     background-color:rgb(40, 50, 40);
@@ -120,5 +120,6 @@ button{
 #right{
     right: -30px;
 }
+
 
 
