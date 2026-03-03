@@ -4,7 +4,7 @@ const foodSound = new Audio('food.mp3');
 const gameOverSound = new Audio('gameover.mp3');
 const moveSound = new Audio('movebtn.mp3');
 const musicSound = new Audio('bg2.mp3');
-let speed = 25;
+let speed = 20;
 let score = 0;
 let lastPaintTime = 0;
 
@@ -173,3 +173,4 @@ document.querySelector('#right').addEventListener('touchstart', () => {
     inputdirection.y = 0;
     moveSound.play();
 })
+
