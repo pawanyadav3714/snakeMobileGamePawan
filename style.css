@@ -73,14 +73,14 @@ html,body{
 }
 .btn{
     position: absolute;
-    bottom: 10px;
+    bottom: 3px;
 
     display: flex;
     align-items: center;
     justify-content: center;
     background: transparent;
-    height: 250px;
-    width: 260px;
+    height: 180px;
+    width: 160px;
 
     
 }
@@ -112,6 +112,7 @@ button{
     right: 10px;
 
 }
+
 
 
 
