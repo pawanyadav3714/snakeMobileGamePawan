@@ -19,7 +19,7 @@ html,body{
 }
 
 #board{
-    height: 95vmin;
+    height: 95%;
     width: 95vmin;
     background-color:rgb(40, 50, 40);
     /* background: linear-gradient(-45deg,#00ff88,#00c6ff,#ff4e50,#f9d423); */
@@ -102,6 +102,7 @@ button{
 
 #left{
    left: 18px;
+  z-index:1;
 
 }
 #down{
@@ -110,8 +111,10 @@ button{
 }
 #right{
     right: 18px;
+  z-index:1;
 
 }
+
 
 
 
