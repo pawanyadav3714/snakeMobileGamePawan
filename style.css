@@ -21,16 +21,16 @@ html,body{
 }
 
 #board{
-    position: absolute;
-    top: 50px;
-    height: 115vmin;
+    position: relative;
+    top: -50px;
+    height: 120vmin;
     width: 95vmin;
     background-color:rgb(40, 50, 40);
     /* background: linear-gradient(-45deg,#00ff88,#00c6ff,#ff4e50,#f9d423); */
     border: 2px solid purple;
     display: grid;
     grid-template-rows: repeat(30,1fr);
-    grid-template-columns: repeat(30,1fr);
+    grid-template-columns: repeat(20,1fr);
 }
 #scoreBox{
     position: absolute;
