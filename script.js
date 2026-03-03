@@ -9,9 +9,9 @@ let score = 0;
 let lastPaintTime = 0;
 
 let snakeArr = [
-    {x:37, y:23}
+    {x:16, y:24}
 ]
-food = {x:43, y:37};
+food = {x:33, y:17};
 
     //game functions
 function main(ctime){
@@ -33,7 +33,7 @@ function isCollide(snake){
         }
         }
         // If you bump into the wall
-        if(snake[0].x >= 70 || snake[0].x < 0 || snake[0].y >= 70 || snake[0].y < 0){
+        if(snake[0].x >= 50 || snake[0].x < 0 || snake[0].y >= 50 || snake[0].y < 0){
             gameOverSound.play();
         return true;
         }
@@ -65,8 +65,8 @@ function gameEngine(){
             hiscoreBox.innerHTML = "HiScore: " + hiscoreval;
         }
         scoreBox.innerHTML = "Score: " + score;
-        let a = 1;
-        let b = 69;
+        let a = 2;
+        let b = 49;
         food = {x: Math.round(a + (b-a)*Math.random()),
                 y: Math.round(a + (b-a)*Math.random())}
     }
@@ -172,3 +172,4 @@ document.querySelector('#right').addEventListener('touchstart', () => {
     inputdirection.y = 0;
     moveSound.play();
 })
+
