@@ -96,12 +96,12 @@ button{
 }
 
 #up{
-    top: 1px;
+    top: 10px;
 
 }
 
 #left{
-   left: 12px;
+   left: 14px;
 
 }
 #down{
@@ -109,9 +109,10 @@ button{
 
 }
 #right{
-    right: 12px;
+    right: 14px;
 
 }
+
 
 
 
