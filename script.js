@@ -11,7 +11,7 @@ let lastPaintTime = 0;
 let snakeArr = [
     {x:20, y:16}
 ]
-food = {x:12, y:40};
+food = {x:12, y:12};
 
     //game functions
 function main(ctime){
@@ -33,7 +33,7 @@ function isCollide(snake){
         }
         }
         // If you bump into the wall
-        if(snake[0].x >= 50 || snake[0].x < 0 || snake[0].y >= 50 || snake[0].y < 0){
+        if(snake[0].x >= 30 || snake[0].x < 0 || snake[0].y >= 30 || snake[0].y < 0){
             gameOverSound.play();
         return true;
         }
@@ -66,7 +66,7 @@ function gameEngine(){
         }
         scoreBox.innerHTML = "Score: " + score;
         let a = 3;
-        let b = 47;
+        let b = 27;
         food = {x: Math.round(a + (b-a)*Math.random()),
                 y: Math.round(a + (b-a)*Math.random())}
     }
