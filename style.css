@@ -83,8 +83,8 @@ html,body{
     align-items: center;
     justify-content: center;
     background: transparent;
-    height: 200px;
-    width: 130px;
+    height: 500px;
+    width: 330px;
 
     
 }
@@ -120,3 +120,4 @@ button{
 #right{
     right: -30px;
 }
+
