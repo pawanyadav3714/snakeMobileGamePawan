@@ -31,8 +31,8 @@ z-index: 1;
 }
 #scoreBox{
     position: absolute;
-    top: -30px;
-    right: 250px;
+    top: 10px;
+    left: 150px;
     font-size: xx-large;
     font-weight: 700;
     font-family: cursive;
@@ -113,6 +113,7 @@ button{
     right: 10px;
 
 }
+
 
 
 
